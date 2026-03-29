@@ -1,0 +1,18 @@
+services:
+  app:
+    image: ghcr.io/mikemcg52/homelab-monitor:latest
+    container_name: homelab-monitor
+    restart: unless-stopped
+    ports:
+      - "3010:3010"
+    environment:
+      PORT: 3010
+      MONITOR_API_KEY: ${MONITOR_API_KEY}
+      DATA_DIR: /data
+      OPENCLAW_GATEWAY_URL: ${OPENCLAW_GATEWAY_URL}
+      OPENCLAW_GATEWAY_TOKEN: ${OPENCLAW_GATEWAY_TOKEN}
+    volumes:
+      - monitordata:/data
+
+volumes:
+  monitordata:

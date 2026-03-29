@@ -1,0 +1,9 @@
+{
+  "name": "github-last-commit",
+  "version": "1.0.0",
+  "description": "Fetch the last commit for each homelab GitHub repo",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect.js"
+  }
+}

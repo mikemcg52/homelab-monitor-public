@@ -1,0 +1,9 @@
+{
+  "name": "jetson-metrics",
+  "version": "1.0.0",
+  "description": "Collect metrics from Jetson devices via SSH",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect.js"
+  }
+}

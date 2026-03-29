@@ -1,0 +1,9 @@
+{
+  "name": "docker-stats",
+  "version": "1.0.0",
+  "description": "Collect container status and resource metrics from Docker hosts",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "proxmox-metrics",
+  "version": "1.0.0",
+  "description": "Collect node metrics from Proxmox VE via REST API",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect.js"
+  }
+}

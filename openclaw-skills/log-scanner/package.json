@@ -1,0 +1,9 @@
+{
+  "name": "log-scanner",
+  "version": "1.0.0",
+  "description": "Scan recent Docker container logs for errors and warnings",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/scan.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "homelab-snapshot",
+  "version": "1.0.0",
+  "description": "Orchestrator — runs all collector skills and POSTs assembled snapshot to the backend",
+  "type": "module",
+  "scripts": {
+    "snapshot": "node scripts/snapshot.js"
+  }
+}
